@@ -1,3 +1,7 @@
+This repo ported RSSHub to LeanEngine of [LeanCloud](https://leancloud.app), can be `lean deploy` to LeanEngine directly.
+
+<details>
+<summary>Expand original README</summary>
 <p align="center">
 <img src="https://i.loli.net/2019/04/23/5cbeb7e41414c.png" alt="RSSHub" width="100">
 </p>
@@ -97,3 +101,4 @@ We accept donations via the following ways:
 Authored and maintained by DIYgod with help from contributors ([list](https://github.com/DIYgod/RSSHub/contributors)).
 
 > Blog [@DIYgod](https://diygod.me) · GitHub [@DIYgod](https://github.com/DIYgod) · Twitter [@DIYgod](https://twitter.com/DIYgod) · Telegram Channel [@awesomeDIYgod](https://t.me/awesomeDIYgod)
+</details>
