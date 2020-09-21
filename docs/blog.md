@@ -24,7 +24,7 @@ pageClass: routes
 | ----------------- | ------------------- | -------- | -------- | --------------- | -------- | -------------- |
 | hirasawayui       | se7en               | walnut   | themez   | comeet          | sunskyxh | zmd            |
 
-> 原则上只要是{type}.hedwig.pub 都可以匹配。
+> 原则上只要是 {type}.hedwig.pub 都可以匹配。
 
 ## Hexo
 
@@ -36,11 +36,27 @@ pageClass: routes
 
 <Route author="aha2mao" example="/hexo/yilia/cloudstone.xin" path="/hexo/yilia/:url" :paramsDesc="['博客 Url 不带协议头']"/>
 
+## Hi, DIYgod
+
+### DIYgod 的动森日记
+
+<Route author="DIYgod" example="/blogs/diygod/animal-crossing" path="/blogs/diygod/animal-crossing"/>
+
+### DIYgod 的可爱的手办们
+
+<Route author="DIYgod" example="/blogs/diygod/gk" path="/blogs/diygod/gk"/>
+
+## JustRun
+
+### JustRun
+
+<Route author="nczitzk" example="/justrun" path="/justrun"/>
+
 ## LaTeX 开源小屋
 
 ### 首页
 
-<Route author="kt286" example="/latexstudio/home" path="/latexstudio/home"/>
+<Route author="kt286 nczitzk" example="/latexstudio/home" path="/latexstudio/home"/>
 
 ## LeeMeng
 
@@ -55,6 +71,10 @@ pageClass: routes
 ### Essays
 
 <Route author="Maecenas" example="/blogs/paulgraham" path="/blogs/paulgraham"/>
+
+## WordPress
+
+<Route author="Lonor" example="/blogs/wordpress/lawrence.code.blog" path="/blogs/wordpress/:domain/:https?" :paramsDesc="['WordPress 博客域名', '默认 https 协议。填写 `http`或`https`']"/>
 
 ## 阿里云系统组技术博客
 
@@ -78,6 +98,12 @@ pageClass: routes
 
 <Route author="kt286" example="/daxiaamu/home" path="/daxiaamu/home"/>
 
+## 建宁闲谈
+
+### 文章
+
+<Route author="changlan" example="/blogs/jianning" path="/blogs/jianning" radar="1"/>
+
 ## 敬维博客
 
 ### 文章
@@ -100,9 +126,7 @@ pageClass: routes
 
 ### 文章
 
-<Route author="prnake" example="/blogs/wang54" path="/blogs/wang54/:id?" :paramsDesc="['RSS抓取地址：https://wangwusiwj.blogspot.com/:id?，默认为2020']">
-
-</Route>
+<Route author="prnake" example="/blogs/wang54" path="/blogs/wang54/:id?" :paramsDesc="['RSS抓取地址：https://wangwusiwj.blogspot.com/:id?，默认为2020']"/>
 
 ## 王垠博客
 
